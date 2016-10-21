@@ -25,6 +25,8 @@ $(window).load(function(){
 					$("#message div").text("The tweet has been sent correctly.");
 					$("#message").show();
 					$("#tweetToSend").val('');
+					$("#characters").css("color", "#777777");
+					$("#characters").text("0/140");
 	    		}else{
 	    			$("#message div").addClass("alert-danger");
 					$("#message div").text("An error has occurred.");

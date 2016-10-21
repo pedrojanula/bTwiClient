@@ -1,0 +1,67 @@
+.center{
+	text-align: center;
+}
+
+#new{
+	padding: 20px;
+}
+
+#btnTweet{
+	margin-top: 20px;
+}
+
+#photoProfile{
+	margin-top: 30px;
+}
+
+#photoProfile img{
+	width: 30%;
+}
+
+#message{
+	margin-top: 10px;
+}
+
+.dflex{
+	display: flex;
+}
+
+#infoUser{
+	margin-bottom: 20px;
+}
+
+#infoUser img{
+	margin-right: 20px;
+}
+
+#infoUser b{
+	color: white;
+}
+
+#characters{
+	margin-bottom: 0;
+	font-size: 30px;
+}
+
+#main, .panel{
+	background-color: #3A4149;
+}
+
+#main h2{
+	color: white;
+}
+
+#tweetToSend{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#config h4{
+	color: white;
+}
+
+@media screen and (min-width: 737px){
+	#wrapper{
+		padding-top: 120px!important;
+	}
+}

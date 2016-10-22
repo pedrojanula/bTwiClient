@@ -27,6 +27,9 @@ $(window).load(function(){
 					$("#tweetToSend").val('');
 					$("#characters").css("color", "#777777");
 					$("#characters").text("0/140");
+					setTimeout(function(){
+						$("#message").hide();
+					}, 3000);
 	    		}else{
 	    			$("#message div").addClass("alert-danger");
 					$("#message div").text("An error has occurred.");
